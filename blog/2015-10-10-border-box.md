@@ -2,7 +2,7 @@
 title: What exactly does {box-sizing:border-box} do?
 summary: "An explanation of what  { box-sizing: border-box } actually is."
 date: 2015-10-10
-tags: [css, border-box, pre-work]
+tags: ['css', 'border-box']
 ---
 
 `box-sizing: border-box`

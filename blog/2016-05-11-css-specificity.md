@@ -2,7 +2,7 @@
 title: CSS Specificity.
 summary: "What CSS Specificity is and how to calculate it so it doesn't bite you."
 date: 2016-05-11
-tags: [css]
+tags: ['css']
 ---
 
 This week I refreshed my memory on CSS specificity. In laymen terms certain selectors have different point values. The more specific a selector the greater precedence that selector takes. In cases with equal specificity the selector that came last will be applied aka the cascade in cascading stylesheets. Specificity is the reason why CSS-rules don’t apply to some elements when you think that they should? Hacve you ever pulled your hair out asking yourself why that certain style is not applying? Then you've wresteled with CSS specificity. Higher specificity wins if two selectors are applied to the same element.

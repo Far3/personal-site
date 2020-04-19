@@ -2,7 +2,7 @@
 title: Expand Collapse toggle button.
 summary: "How to create an expand/collapse toggle button with bootstrap."
 date: 2016-04-14
-tags: [bootstrap, css]
+tags: ['bootstrap', 'css']
 ---
 
 <p>

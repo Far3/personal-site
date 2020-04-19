@@ -2,7 +2,7 @@
 title: Breaking the Timer Barrier, and honest review.
 summary: It makes more sense to charge a fixed fee that represents the value of the impact your work has on the clients instead of the hourly rate.
 date: 2019-02-14 08:03:13
-tags: ['book']
+tags: ['Book Review Notes']
 ---
 It makes more sense to charge a fixed fee that represents the value of the impact your work has on the clients instead of the hourly rate.
 

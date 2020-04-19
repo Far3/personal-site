@@ -2,7 +2,7 @@
 title: Sales Dogs book review
 summary: You don’t have to be an attack dog to explode your income.
 date: 2018-03-12 23:19:19
-tags: [book]
+tags: ['Book Review Notes']
 ---
 Sales Dogs: You don’t have to be an attack dog to explode your income.
 

@@ -2,7 +2,7 @@
 title: The Millionare Fastlane book notes
 summary: Despite its incredibly cheesy title, *The Millionaire Fastlane* is awesome. It’s a book that *everyone* should read. It offers a very compelling alternative to the "Get Rich Slowly" philosophy.
 date: 2018-07-07
-tags: [book]
+tags: ['Book Review Notes']
 ---
 
 Despite its incredibly cheesy title, *The Millionaire Fastlane* is awesome. It’s a book that *everyone* should read. It offers a very compelling alternative to the "Get Rich Slowly" philosophy.

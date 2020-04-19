@@ -2,7 +2,7 @@
 title: So good they can't ignore you
 summary: "Book reivew of So good they can't ignore you by Cal Newport read 11/24/16"
 date: 2016-11-23
-tags: [book]
+tags: ['Book Review Notes']
 ---
 I’ve had this book on my to read list for years, and I had a long weekend dog sitting and was able to finish it in one sitting on the back porch on a beautiful Sunny colorado day. I am definitely on the right path, most of the advice that is relevant to me is toward the beginning part of the book. The building of career capital part. In a few years, the next parts will be more relevant as I try and work remotely full-time.
 

@@ -2,7 +2,7 @@
 title: "Book review and notes: The $100 Startup."
 summary: "My notes on The $100 Startup by Chris Guillebeau."
 date: 2016-02-14
-tags: [Book, 2016]
+tags: ['Book Review Notes', 2016]
 ---
 
 This book was on my mind to read for many years. I've always wanted to start a side business of some sort in addition to my day job to earn a little extra money and gain new skills and experiences. I'm really glad I did and now have a dog sitting business that I do part time on nights and weekends. This book is a nice entry into how to do that.

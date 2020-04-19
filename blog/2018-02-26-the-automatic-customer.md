@@ -2,7 +2,7 @@
 title: The Automatic Customer By John Warrillow - Book Notes
 summary: Business are much easier to sell that have some form of recurring revenue.
 date: 2018-02-26 22:28:48
-tags: [book]
+tags: ['Book Review Notes']
 ---
 The automatic customer by john warrillow
 

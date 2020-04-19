@@ -2,7 +2,7 @@
 title: Intermediate git and the 2 commands that saved me.
 summary: "I explain some intermediate git commands, git flow and 2 important commands that can save you in a bind."
 date: 2016-04-19
-tags: [git, sourcecontrol]
+tags: ['git', 'sourcecontrol']
 ---
 I just moved from a project that was on SVN to git. Having not much git experience or command line experience, this was a little stressful. Especially since this project was using a form of git workflow called "git flow". More about `git flow` <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank">here</a>.
 Oh and this all goes on top of the everyday stress I always get thinking “Do I know how to build this? “or “ What if I can’t build it in time?” <strong>The answer is mostly yes. It just takes time.</strong>
