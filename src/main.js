@@ -37,18 +37,18 @@ export default function (Vue, { router, head, isClient }) {
   })
 
   head.script.push({
-    src: '../service-worker.js',
+    src: '../static/service-worker.js',
     body: true
   })
 
   head.script.push({
-    src: '../service-worker-check.js',
+    src: '../static/service-worker-check.js',
     body: true
   })
 
   head.link.push({
     rel: 'manifest',
-    href: '../manifest.json'
+    href: '../static/manifest.json'
   })
 }
 
