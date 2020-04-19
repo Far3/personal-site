@@ -35,6 +35,21 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700'
   })
+
+  head.script.push({
+    src: '../service-worker.js',
+    body: true
+  })
+
+  head.script.push({
+    src: '../service-worker-check.js',
+    body: true
+  })
+
+  head.link.push({
+    rel: 'manifest',
+    href: '../manifest.json'
+  })
 }
 
 
