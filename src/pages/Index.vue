@@ -87,14 +87,26 @@
           <p class="mb-12">Open to freelance projects or career advice for all web developers.</p>
 
           <div class="text-lg sm:text-lg mb-16">
-            <form name="contact" method="POST" data-netlify="true" class="mb-12">
+            <form 
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              v-on:submit.prevent="handleSubmit"
+              data-netlify-honeypot="bot-field"
+              class="mb-12">
+              <input type="hidden" name="form-name" value="contact" />
+                <p hidden>
+                  <label>
+                    Don’t fill this out: <input name="bot-field" />
+                  </label>
+                </p>
               <div class="flex flex-wrap mb-6 -mx-4">
                   <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                       <label class="block mb-2 text-copy-primary" for="name">
                           Name
                       </label>
 
-                      <input type="text" name="name" id="name" placeholder="Your Name" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
+                      <input v-model="formData.name" type="text" name="name" id="name" placeholder="Your Name" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
                   </div>
 
                   <div class="w-full px-4 md:w-1/2">
@@ -102,7 +114,7 @@
                           Email Address
                       </label>
 
-                      <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
+                      <input  v-model="formData.email" type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
                   </div>
               </div>
 
@@ -111,7 +123,7 @@
                       Message
                   </label>
 
-                  <textarea id="message" rows="5" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4" placeholder="Enter your message here." required></textarea>
+                  <textarea v-model="formData.message" id="message" rows="5" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4" placeholder="Enter your message here." required></textarea>
               </div>
 
               <div class="flex justify-end w-full">
@@ -132,6 +144,30 @@
 
 <script>
 export default {
+    methods: {
+      encode(data) {
+        return Object.keys(data)
+          .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+          .join('&')
+      },
+      handleSubmit(e) {
+        fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: this.encode({
+            'form-name': e.target.getAttribute('name'),
+            ...this.formData,
+          }),
+        })
+        .then(() => this.$router.push('/success'))
+        .catch(error => alert(error))
+      }
+    },
+    data() {
+    return {
+      formData: {}
+    }
+  },
   metaInfo: {
     title: 'Franklyn'
   }
