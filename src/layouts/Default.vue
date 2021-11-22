@@ -24,7 +24,7 @@
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
           <li>
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
+            <g-link to="/post" class="text-copy-primary hover:text-gray-600">Post</g-link>
           </li>
         </ul>
       </nav>
