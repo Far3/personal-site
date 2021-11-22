@@ -14,6 +14,7 @@ module.exports = {
     './src/**/*.md',
     './docs/**/*.md',
     './blog/**/*.md',
+    './post/**/*.md',
   ],
   whitelist: [
     'body',

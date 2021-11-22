@@ -39,7 +39,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'blog/**/*.md',
+        path: 'post/**/*.md',
         typeName: 'Post',
         refs: {
           tags: {
