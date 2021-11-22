@@ -13,4 +13,3 @@ Built from the starter theme for Gridsome. Based off of [https://github.com/dreh
 - ~~Update projects copy~~
 - Migrate blog posts to new site
 - ~~Set dark mode as default~~
-- Update media with custom iamges and SVGs
