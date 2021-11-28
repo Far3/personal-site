@@ -20,7 +20,7 @@
 
       <pagination-posts
         v-if="$page.posts.pageInfo.totalPages > 1"
-        base="/post"
+        base="/blog"
         :totalPages="$page.posts.pageInfo.totalPages"
         :currentPage="$page.posts.pageInfo.currentPage"
       />
@@ -55,7 +55,7 @@ import PaginationPosts from '../components/PaginationPosts'
 
 export default {
   metaInfo: {
-    title: 'Post'
+    title: 'Blog'
   },
   components: {
     PaginationPosts

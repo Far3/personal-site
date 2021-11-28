@@ -14,7 +14,7 @@ const postcssPlugins = [
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: '',
   siteDescription: 'A simple portfolio site for me, Franklyn Roth',
   siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
   plugins: [
@@ -39,7 +39,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'post/**/*.md',
+        path: 'blog/**/*.md',
         typeName: 'Post',
         refs: {
           tags: {
@@ -47,12 +47,6 @@ module.exports = {
             create: true
           }
         }
-      }
-    },
-    {
-      use: `gridsome-plugin-netlify-cms`,
-      options: {
-        publicPath: `/admin`
       }
     },
     {
