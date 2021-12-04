@@ -7,6 +7,15 @@ Built from the starter theme for Gridsome. Based off of [https://github.com/dreh
 1. `npm install`
 1. `gridsome develop` to start a local dev server at `http://localhost:8080`
 
+
+## Deployment
+
+1. Make changes
+2. `git add`
+3. `git commit -m "meaningful message"`
+1. `git push`
+1. Site will be automatically built and deployed at `https://franklyntech.netlify.app/`
+
 ## TODO
 - ~~Find Gridsome template~~
 - ~~Deploy on netlify~~
