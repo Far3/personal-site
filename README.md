@@ -13,8 +13,9 @@ Built from the starter theme for Gridsome. Based off of [https://github.com/dreh
 1. Make changes
 2. `git add`
 3. `git commit -m "meaningful message"`
-1. `git push`
-1. Site will be automatically built and deployed at `https://franklyntech.netlify.app/`
+4. `git push`
+5. Site will be automatically built and deployed at [https://franklyntech.netlify.app/](https://franklyntech.netlify.app/)
+6. Login Portal: [https://app.netlify.com/sites/franklyntech/overview](https://app.netlify.com/sites/franklyntech/overview)
 
 ## TODO
 - ~~Find Gridsome template~~
