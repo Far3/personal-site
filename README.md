@@ -11,5 +11,5 @@ Built from the starter theme for Gridsome. Based off of [https://github.com/dreh
 - ~~Find Gridsome template~~
 - ~~Deploy on netlify~~
 - ~~Update projects copy~~
-- Migrate blog posts to new site
+- ~~Migrate blog posts to new site~~
 - ~~Set dark mode as default~~
