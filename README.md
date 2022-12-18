@@ -4,7 +4,7 @@ Built from the starter theme for Gridsome. Based off of [https://github.com/dreh
 
 ## Development
 
-1. `npm install`
+1. `yarn`
 1. `gridsome develop` to start a local dev server at `http://localhost:8080`
 
 
