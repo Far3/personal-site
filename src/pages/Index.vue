@@ -3,6 +3,7 @@
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Software developer. Always learning.</div>
+        <div> class="leading-tight"><a href="https://www.youtube.com/@ftech0342">YouTube Screencasts</a></div>
       </div>
       <div class="mt-8 sm:mt-0">
         <g-image src="../../static/me.jpg" alt="hero" class="mx-auto sm:mx-0 image-me" />
