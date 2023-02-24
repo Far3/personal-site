@@ -1,7 +1,7 @@
 ---
 title: What is an API
 path: /what-is-api
-date: 2021-12-03
+date: 2023-02-24
 summary: What is an API?
 tags: ['javascript', 'API']
 ---
