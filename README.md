@@ -17,6 +17,15 @@ Built from the starter theme for Gridsome. Based off of [https://github.com/dreh
 5. Site will be automatically built and deployed at [https://franklyntech.netlify.app/](https://franklyntech.netlify.app/)
 6. Login Portal: [https://app.netlify.com/sites/franklyntech/overview](https://app.netlify.com/sites/franklyntech/overview)
 
+
+
+## Blog post workflow
+1. Write post in google doc
+2. convert to markdown format with https://euangoddard.github.io/clipboard2markdown/
+3. Create new markdown file in `/blog` directory following the same convention of other files.
+4. Save and push up changes
+
+
 ## TODO
 - ~~Find Gridsome template~~
 - ~~Deploy on netlify~~
