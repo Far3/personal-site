@@ -7,7 +7,7 @@ tags: ['front-end', 'web', 'css']
 ---
 What is the virtual DOM?
 
-The virtual DOM is a programming concept found in client side libraries and frameworks such as react, vue and angular. It stands for the virtual document object model and is a virtual representation of the real DOM. It is different from the shadow DOM which is a browser technology designed for scoping of variables and CSS. Virtual DOM is a concept found in javascript client side libraries.
+The virtual DOM is a programming concept found in client side libraries such as react and vue. It stands for the virtual document object model and is a virtual representation of the real DOM. It is different from the shadow DOM which is a browser technology designed for scoping of variables and CSS.
 
 Updating the virtual DOM is faster than updating the actual DOM. This makes it more performant for the javascript library to find the difference between the previous virtual DOM and current one. Once these differences are compared, only the necessary changes affect the actual DOM.
 
